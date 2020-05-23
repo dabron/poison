@@ -1,0 +1,17 @@
+body
+{
+	color: yellow;
+	background-color: brown;
+	background-image: url(images/poison.png);
+	background-repeat: repeat-x;
+	background-blend-mode: darken;
+	font-family: 'Calibri', sans-serif;
+	font-size: x-large;
+}
+
+#clock
+{
+	color: green;
+	font-family: 'Consolas', monospace;
+	font-size: xx-large;
+}
