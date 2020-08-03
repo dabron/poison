@@ -9,6 +9,11 @@ body
 	font-size: x-large;
 }
 
+a
+{
+	color: green;
+}
+
 #clock
 {
 	color: green;

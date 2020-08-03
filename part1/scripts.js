@@ -5,6 +5,7 @@ var running;
 function body_onload()
 {
 	document.getElementById("unlock").hidden = true;
+	document.getElementById("success").hidden = true;
 }
 
 function start_onclick()
@@ -20,8 +21,8 @@ function unlock_onclick()
 {
 	if (document.getElementById("code").value === "1234")
 	{
-		document.getElementById("message").innerHTML = "You Win!";
 		document.getElementById("unlock").hidden = true;
+		document.getElementById("success").hidden = false;
 		running = false;
 	}
 	else
